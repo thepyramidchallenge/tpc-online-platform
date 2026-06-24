@@ -1,0 +1,12 @@
+# Public repo = FRONTEND ONLY (prototype/). Everything below stays LOCAL + Google
+# Drive, off GitHub: backend, docs, sheet templates, source papers, infra notes.
+/cloud-run/
+/docs/
+/sheets-template/
+/assets/
+/reference/
+/.claude/
+/AGENT_HANDOFF.md
+/CLAUDE.md
+/README.md
+.DS_Store
