@@ -1,39 +1,24 @@
 # The Pyramid Challenge — Practice
 
-Interactive **Practice** web app for Hong Kong **K2–P6** students (≈ ages 4–12) —
-part of [The Pyramid Challenge](https://thepyramidchallenge.org).
+A free, interactive **Practice** web app for Hong Kong **K2–P6** children
+(約 4–12 歲) from [The Pyramid Challenge](https://thepyramidchallenge.org).
 
-## ▶ Live
-
+## ▶ Try it
 **https://thepyramidchallenge.github.io/tpc-online-platform/**
 
-Sign in, pick a topic, practise a timed question set, see your score and review.
+Your child signs in with a Google account, picks a topic, practises a short timed
+set of questions, and sees their score with answers to review — bilingual 中／英,
+built for young learners (big buttons, big type, a simple flow).
 
 ## About this repo
+This is the **public frontend** of the Practice app — the same thing that runs at
+the link above (built with React). The question/marking service and the project's
+working documents live in a separate private repo (`tpc-online-platform-admin`) and
+are **not** here. The `prototype/` folder is an **earlier reference version** kept
+for history; it is not what the live site runs.
 
-This is the **frontend** (a self-contained clickable prototype: `prototype/`).
-Question data is bundled; practice results are sent to a backend API. The backend
-(a Cloud Run service over Google Sheets) and project docs are maintained
-separately and are **not** in this public repo.
+## For developers
+Production is a React + Vite build published to GitHub Pages. To run the older
+`prototype/` reference locally:
 
-> **Business context (the *why*):** vision, pricing/funnel, the moat, and
-> validated/unvalidated bets live in the **TPC Business Space** —
-> https://thepyramidchallenge.github.io/tpc-dashboard/ (Business space tab) ·
-> source `github.com/thepyramidchallenge/tpc-dashboard/tree/main/business`. The
-> full project (frontend + backend + docs) is the private `tpc-online-platform-admin` repo.
-
-## Run locally
-
-```bash
-cd prototype
-python3 scripts/serve.py     # → http://127.0.0.1:5510
-```
-
-Then open http://127.0.0.1:5510. To run fully offline (no backend calls), set
-`apiUrl: ""` in `prototype/config.js`.
-
-## Tech
-
-Vanilla HTML/CSS/JS — no build step. Bilingual 中/EN, young-learner UX (large
-targets, big type). Files: `prototype/index.html · styles.css · app.js ·
-backend.js · config.js · data.js · assets/`.
+    cd prototype && python3 scripts/serve.py   # → http://127.0.0.1:5510
