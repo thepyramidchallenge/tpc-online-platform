@@ -16,6 +16,12 @@ Question data is bundled; practice results are sent to a backend API. The backen
 (a Cloud Run service over Google Sheets) and project docs are maintained
 separately and are **not** in this public repo.
 
+> **Business context (the *why*):** vision, pricing/funnel, the moat, and
+> validated/unvalidated bets live in the **TPC Business Space** —
+> https://thepyramidchallenge.github.io/tpc-dashboard/ (Business space tab) ·
+> source `github.com/thepyramidchallenge/tpc-dashboard/tree/main/business`. The
+> full project (frontend + backend + docs) is the private `tpc-online-platform-admin` repo.
+
 ## Run locally
 
 ```bash
