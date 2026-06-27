@@ -11,14 +11,8 @@ set of questions, and sees their score with answers to review — bilingual 中�
 built for young learners (big buttons, big type, a simple flow).
 
 ## About this repo
-This is the **public frontend** of the Practice app — the same thing that runs at
-the link above (built with React). The question/marking service and the project's
-working documents live in a separate private repo (`tpc-online-platform-admin`) and
-are **not** here. The `prototype/` folder is an **earlier reference version** kept
-for history; it is not what the live site runs.
-
-## For developers
-Production is a React + Vite build published to GitHub Pages. To run the older
-`prototype/` reference locally:
-
-    cd prototype && python3 scripts/serve.py   # → http://127.0.0.1:5510
+This is the **public home of the Practice app** — the live site above is published
+here via GitHub Pages (a React + Vite build). The app source, the question/marking
+service (a Cloud Run service over Google Sheets), and the project's working
+documents live in a separate private repo (`tpc-online-platform-admin`) and are
+**not** here.
