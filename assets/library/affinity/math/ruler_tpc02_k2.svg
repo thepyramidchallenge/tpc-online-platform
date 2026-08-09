@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 70" role="img" aria-label="Ruler">
+  <rect x="10" y="14" width="220" height="42" rx="4" fill="rgb(255,206,0)"/>
+  <path d="M30 14V44M50 14V34M70 14V44M90 14V34M110 14V44M130 14V34M150 14V44M170 14V34M190 14V44M210 14V34" stroke="rgb(24,99,127)" stroke-width="4"/>
+</svg>

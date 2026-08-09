@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Base ten cube">
+  <path d="M28 36L60 18L92 36V78L60 96L28 78Z" fill="rgb(13,121,242)"/>
+  <path d="M28 36L60 54L92 36M60 54V96" fill="none" stroke="rgb(241,239,233)" stroke-width="5"/>
+</svg>

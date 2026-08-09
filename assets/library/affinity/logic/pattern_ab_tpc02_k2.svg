@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" role="img" aria-label="AB pattern">
+  <circle cx="32" cy="40" r="24" fill="rgb(217,101,38)"/>
+  <path d="M88 14L112 66H64Z" fill="rgb(255,206,0)"/>
+  <circle cx="144" cy="40" r="24" fill="rgb(217,101,38)"/>
+  <path d="M200 14L224 66H176Z" fill="rgb(255,206,0)"/>
+</svg>
