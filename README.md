@@ -4,7 +4,7 @@ A free, interactive **Practice** web app for Hong Kong **K2–P6** children
 (約 4–12 歲) from [The Pyramid Challenge](https://thepyramidchallenge.org).
 
 ## ▶ Try it
-**https://thepyramidchallenge.github.io/tpc-online-platform/**
+**https://academy.pyramidchallenge.org/**
 
 Your child signs in with a Google account, picks a topic, practises a short timed
 set of questions, and sees their score with answers to review — bilingual 中／英,
